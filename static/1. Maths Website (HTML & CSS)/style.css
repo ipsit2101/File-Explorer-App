@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 5% 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+.brand {
+    flex: 1;
+    min-width: 400px;
+    font-size: 40px;
+}
+.searchBox {
+    border-radius: 8px;
+    padding: 20px;
+    background: linear-gradient(to right, #f6430f, #fb8848);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    margin: 1em;
+    font-size: 20px;
+    flex: 1;
+    background: white url(Images/search.png) right center no-repeat;
+}
+.submit {
+    margin: 1em;
+    font-size: 20px;
+    flex: 1;
+    font-weight: bold;
+    background-color: #553377;
+    color: white;
+}
+
+.menu {
+    border: 1px solid black;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu div {
+    /* background-color: #553377; */
+    margin: 2% 2%;
+    /* border-right: 2px solid black;
+    line-height: 35px; */
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+    font-size: 25px;
+}
+.menu div a:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: font-size 0.3s linear;
+}
+.menu div a:last-child{
+    border-right: none;
+}
+
+.introduction {
+    height: 300px;
+    background: linear-gradient(to right, #FA701E, #FFAE00);
+    margin-top: 50px;
+    padding: 20px 0;
+    color: #274368;
+}
+.title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.center {
+    margin-top: 100px;
+    height: 600px;
+    color: aliceblue;
+}
+.sidebar {
+    background: linear-gradient(to right, #0F2045, #274368);
+    border-radius: 30px;
+    margin: 20px 0;
+    width: 550px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 600px;
+}
+#leftbar {
+    float: left;
+}
+#rightbar {
+    float: right;
+}
+.sidebar ul li {
+    padding: 15px;
+}
+.sidebar h2 {
+    padding: 20px 20px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#leftbar ul li {
+    list-style-image: url(Images/Arrow.png);
+}
+#rightbar ul li {
+    list-style-image: url(Images/Tick.png);
+}
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px;
+    height: 220px;
+    font-size: 25px;
+    background: linear-gradient(to left, #421D68, #89618E);
+}
+#left {
+    float: left;
+    margin: 70px 70px;
+}
+#icons {
+    float: right;
+    margin-right: 80px;
+}
+#icons ul li {
+    float: left;
+    list-style: none;
+    padding: 70px 20px;
+}
+#icons ul li a {
+    font-size: 35px;
+    color:rgb(182, 185, 184)
+}

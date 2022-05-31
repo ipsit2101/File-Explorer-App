@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+    <title>Maths Game</title>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <div id="trials"></div>
+            <div id="score">
+                Score : <span id="scoreVal">0</span>
+            </div>
+            <div id="screen">
+                <img id="fruit">
+            </div>
+            <div id="choose">
+                Choose the correct one
+            </div>
+            <div id="start">
+                <button id="startGame">
+                    Start Game
+                </button>
+            </div>
+            <div id="gameOver">
+                <div id="innerDiv">
+                    <p>Game Over !</p> 
+                    <p>Your Score is <span id="sval"></span></p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <audio id="slicesound">
+        <source src="Audio/19312__martian__classic-double-swwosh.mp3">
+        <source src="Audio/19312__martian__classic-double-swwosh.ogg">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="Jquery.js"></script>
+</body>
+</html>

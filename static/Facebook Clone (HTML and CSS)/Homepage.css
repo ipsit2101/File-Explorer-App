@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+	section {
+		border: 1px solid rgba(36,74,234,1.00);
+		margin: 0px;
+		background-color: rgba(44,42,113,1.00);
+		display: flex;
+	}
+	section > h1{
+		margin-left: 120px;
+		margin-top: 20px;
+		font-size: 50px;
+		font-family: 'Arimo', sans-serif;
+		color: white;
+		height: 40px;
+	}
+	form{
+		margin-left: 700px;
+		margin-right: 1px;
+		justify-content: space-around;
+		color: white;
+		font-weight: 300;
+	}
+	#input{
+		height: 15px;
+	}
+	#flex{
+		height: 6px;
+		list-style: none;
+		display: flex;
+		padding-left: 1px;
+	}
+	#email{
+		margin-left:4px;
+	}
+	#password{
+		margin-left: 120px;
+	}
+	#flex1{
+		height: 4px;
+		list-style: none;
+		display: flex;
+		padding-left: 1px;
+		font-weight: 100;
+	}
+	#flex2{
+		margin-left: 20px;
+	}
+	#paragraph{
+		color:rgb(0,0,128);
+	    font-family: 'Noto Sans', sans-serif; 
+	    font-size: 20px; 
+	    margin-top: 60px; 
+	    margin-left: 120px
+	}
+	main{
+		background-image: url(https://www.xmple.com/wallpaper/blue-gradient-white-linear-3840x2160-c2-87cefa-ffffff-a-270-f-14.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 730px;
+		display: flex;
+	}
+	#main{
+		padding-left: 30px;
+		margin-top: 40px;
+		padding-left: 30px;
+	}
+	main input{
+		height: 25px;
+		width: 200px;
+	}
+	main form{
+		margin-left: 600px;
+	}
+	main select{
+		height: 29px;
+		width: 70px;
+	}
+	#create{
+		margin-left: 240px;
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 13px;
+	}
+	#span{
+		font-family: 'Noto Sans', sans-serif;
+		color: rgb(0,0,128);
+	}
+	footer{
+		height: 100px;
+	}
+	#unordered{
+		list-style: none;
+		display: flex;
+		justify-content: flex-start; 
+		font-weight: bold;
+		color: rgb(0,0,128);
+	}
+	#unordered > li{
+		margin-left: 45px;
+		margin-right: 20px;
+		margin-top: 10px;
+		font-size: 17px;
+	}
+	#footer{
+		display: flex;
+	}
+	#nav{
+		margin-left: 5px;
+		display: flex;
+		list-style: none;
+		font-family: 'Noto Sans', sans-serif;
+	}
+	#nav > li{
+		margin-right: 30px;
+		font-size: 14px;
+		color: rgb(0,0,128);
+	}
